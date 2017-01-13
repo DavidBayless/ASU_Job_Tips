@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  div(class="reveal")
+    div(class="slides")
+      section
+        h3 How to Seek and Land a Job
+        br
+        small David Bayless
+        br
+        small CompoZed Labs
+        br
+        img(src="images/compozed.png" height="40px" style="border:0; background: none; box-shadow: none;")
+      section
+        h3 Agenda
+        br
+        ol
+          li My Background
+          li What I do now
+          li How to Find Jobs
+          li Your Resume
+          li Interviews
+          li Other Tips
+          li Q&A
+      section
+        img(src="images/napoleon.jpeg" height="inherit" width="80%")
+        br
+        small Actually me in highschool
+      section
+        img(src="images/Orchestra.jpeg" height="inherit" width="80%")
+      section
+        img(src="images/Catdoor.jpeg" height="inherit" width="80%")
+      section
+        img(src="images/Laughing.jpeg" height="inherit" width="80%")
+      section
+        img(src="images/Goodhands.jpeg" height="inherit" width="80%")
+      section
+        img(src="images/compozed.png" height="inherit" width="80%" style="border:0; background: none; box-shadow: none;")
+  script.
+    Reveal.initialize({
+      history: true
+    });
